@@ -14,16 +14,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
       - name: Publish Logseq graph
         uses: logseq/publish-spa@v0.3.0
         with:
-            graph-directory: "."
+          graph-directory: '.'
+          output-directory: '.publish'
 
       - name: Add .nojekyll file
-        run: touch $GITHUB_WORKSPACE/www/.nojekyll
+        run: touch .publish/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: www
+          folder: .publish
           branch: gh-pages
