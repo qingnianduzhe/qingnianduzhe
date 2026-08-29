@@ -1,0 +1,20 @@
+2026-08-29T17:29:30.234Z [info] [frontend.worker.db-worker-node] {:db-worker-node-version {:build-time "2026-07-13T06:22:00.122282361Z", :revision "b09316a"}, :line 578}
+2026-08-29T17:29:30.237Z [info] [frontend.worker.platform.node] {:db-worker-node-platform {:root-dir "C:\\Users\\lituo\\logseq", :vector-embedding-enabled? false, :embedding-endpoint nil, :embedding-model-id nil}, :line 701}
+2026-08-29T17:29:30.243Z [info] [frontend.worker.db-core] {:db-worker/init-service {:graph "logseq_db_.github", :prev-graph nil, :import-type nil}, :line 1731}
+2026-08-29T17:29:30.244Z [info] [frontend.worker.db-core] {:db-worker/on-become-master-start {:repo "logseq_db_.github", :import-type nil}, :line 1696}
+2026-08-29T17:29:30.245Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_.github", :db-path "C:\\Users\\lituo\\logseq\\graphs\\.github\\db.sqlite"}, :line 362}
+2026-08-29T17:29:30.247Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_.github", :search-path "C:\\Users\\lituo\\logseq\\graphs\\.github\\search\\db.sqlite"}, :line 367}
+2026-08-29T17:29:30.248Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_.github", :client-ops-path "C:\\Users\\lituo\\logseq\\graphs\\.github\\client-ops-\\db.sqlite"}, :line 376}
+2026-08-29T17:29:30.683Z [info] [frontend.worker.db-core] {:gc-sqlite-dbs "gc current graph", :line 396}
+2026-08-29T17:29:30.686Z [stdio] [stdout] :debug :db-gc There's no garbage data that's need to be collected.
+2026-08-29T17:29:30.916Z [info] [frontend.worker.db-worker-node] {:db-worker-node-ready {:host "127.0.0.1", :port 51974}, :line 641}
+2026-08-29T17:29:32.710Z [info] [frontend.worker.db-worker-node] {:db-worker-node-stopped nil, :line 638}
+2026-08-29T17:29:35.050Z [info] [frontend.worker.db-worker-node] {:db-worker-node-version {:build-time "2026-07-13T06:22:00.122282361Z", :revision "b09316a"}, :line 578}
+2026-08-29T17:29:35.056Z [info] [frontend.worker.platform.node] {:db-worker-node-platform {:root-dir "C:\\Users\\lituo\\logseq", :vector-embedding-enabled? false, :embedding-endpoint nil, :embedding-model-id nil}, :line 701}
+2026-08-29T17:29:35.059Z [info] [frontend.worker.db-core] {:db-worker/init-service {:graph "logseq_db_.github", :prev-graph nil, :import-type nil}, :line 1731}
+2026-08-29T17:29:35.060Z [info] [frontend.worker.db-core] {:db-worker/on-become-master-start {:repo "logseq_db_.github", :import-type nil}, :line 1696}
+2026-08-29T17:29:35.062Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_.github", :db-path "C:\\Users\\lituo\\logseq\\graphs\\.github\\db.sqlite"}, :line 362}
+2026-08-29T17:29:35.063Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_.github", :search-path "C:\\Users\\lituo\\logseq\\graphs\\.github\\search\\db.sqlite"}, :line 367}
+2026-08-29T17:29:35.064Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_.github", :client-ops-path "C:\\Users\\lituo\\logseq\\graphs\\.github\\client-ops-\\db.sqlite"}, :line 376}
+2026-08-29T17:29:35.100Z [info] [frontend.worker.db-worker-node] {:db-worker-node-ready {:host "127.0.0.1", :port 51986}, :line 641}
+2026-08-29T17:29:36.231Z [info] [frontend.worker.db-worker-node] {:db-worker-node-stopped nil, :line 638}
