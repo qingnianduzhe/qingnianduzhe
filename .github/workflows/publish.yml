@@ -16,6 +16,8 @@ jobs:
 
       - name: Publish Logseq graph
         uses: logseq/publish-spa@v0.3.0
+        with:
+          path: "."
 
       - name: Add .nojekyll file
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
