@@ -1,9 +1,0 @@
-2026-08-29T14:26:09.144Z [info] [frontend.worker.db-worker-node] {:db-worker-node-version {:build-time "2026-08-26T14:55:22.208344212Z", :revision "f7362f0-dirty"}, :line 554}
-2026-08-29T14:26:09.146Z [info] [frontend.worker.platform.node] {:db-worker-node-platform {:root-dir "C:\\Users\\lituo\\logseq", :vector-embedding-enabled? false, :embedding-endpoint nil, :embedding-model-id nil}, :line 701}
-2026-08-29T14:26:09.152Z [info] [frontend.worker.db-core] {:db-worker/init-service {:graph "logseq_db_Demo", :prev-graph nil, :import-type nil}, :line 936}
-2026-08-29T14:26:09.152Z [info] [frontend.worker.db-core] {:db-worker/on-become-master-start {:repo "logseq_db_Demo", :import-type nil}, :line 900}
-2026-08-29T14:26:09.154Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_Demo", :db-path "C:\\Users\\lituo\\logseq\\graphs\\Demo\\db.sqlite"}, :line 446}
-2026-08-29T14:26:09.155Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_Demo", :search-path "C:\\Users\\lituo\\logseq\\graphs\\Demo\\search\\db.sqlite"}, :line 451}
-2026-08-29T14:26:09.156Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_Demo", :client-ops-path "C:\\Users\\lituo\\logseq\\graphs\\Demo\\client-ops-\\db.sqlite"}, :line 460}
-2026-08-29T14:26:09.707Z [info] [frontend.worker.db-worker-node] {:db-worker-node-ready {:host "127.0.0.1", :port 57844}, :line 617}
-2026-08-29T14:28:50.886Z [info] [frontend.worker.db-worker-node] {:db-worker-node-stopped nil, :line 614}
