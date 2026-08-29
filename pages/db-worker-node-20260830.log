@@ -18,3 +18,20 @@
 2026-08-29T17:29:36.744Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_pages", :client-ops-path "C:\\Users\\lituo\\logseq\\graphs\\pages\\client-ops-\\db.sqlite"}, :line 376}
 2026-08-29T17:29:36.775Z [info] [frontend.worker.db-worker-node] {:db-worker-node-ready {:host "127.0.0.1", :port 51992}, :line 641}
 2026-08-29T17:29:38.365Z [info] [frontend.worker.db-worker-node] {:db-worker-node-stopped nil, :line 638}
+2026-08-29T17:37:14.846Z [info] [frontend.worker.db-worker-node] {:db-worker-node-version {:build-time "2026-07-13T06:22:00.122282361Z", :revision "b09316a"}, :line 578}
+2026-08-29T17:37:14.848Z [info] [frontend.worker.platform.node] {:db-worker-node-platform {:root-dir "C:\\Users\\lituo\\logseq", :vector-embedding-enabled? false, :embedding-endpoint nil, :embedding-model-id nil}, :line 701}
+2026-08-29T17:37:14.852Z [info] [frontend.worker.db-core] {:db-worker/init-service {:graph "logseq_db_pages", :prev-graph nil, :import-type nil}, :line 1731}
+2026-08-29T17:37:14.853Z [info] [frontend.worker.db-core] {:db-worker/on-become-master-start {:repo "logseq_db_pages", :import-type nil}, :line 1696}
+2026-08-29T17:37:14.854Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_pages", :db-path "C:\\Users\\lituo\\logseq\\graphs\\pages\\db.sqlite"}, :line 362}
+2026-08-29T17:37:14.855Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_pages", :search-path "C:\\Users\\lituo\\logseq\\graphs\\pages\\search\\db.sqlite"}, :line 367}
+2026-08-29T17:37:14.855Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_pages", :client-ops-path "C:\\Users\\lituo\\logseq\\graphs\\pages\\client-ops-\\db.sqlite"}, :line 376}
+2026-08-29T17:37:14.885Z [info] [frontend.worker.db-worker-node] {:db-worker-node-ready {:host "127.0.0.1", :port 52585}, :line 641}
+2026-08-29T17:37:37.083Z [info] [frontend.worker.db-worker-node] {:db-worker-node-stopped nil, :line 638}
+2026-08-29T17:37:52.636Z [info] [frontend.worker.db-worker-node] {:db-worker-node-version {:build-time "2026-07-13T06:22:00.122282361Z", :revision "b09316a"}, :line 578}
+2026-08-29T17:37:52.638Z [info] [frontend.worker.platform.node] {:db-worker-node-platform {:root-dir "C:\\Users\\lituo\\logseq", :vector-embedding-enabled? false, :embedding-endpoint nil, :embedding-model-id nil}, :line 701}
+2026-08-29T17:37:52.641Z [info] [frontend.worker.db-core] {:db-worker/init-service {:graph "logseq_db_pages", :prev-graph nil, :import-type nil}, :line 1731}
+2026-08-29T17:37:52.642Z [info] [frontend.worker.db-core] {:db-worker/on-become-master-start {:repo "logseq_db_pages", :import-type nil}, :line 1696}
+2026-08-29T17:37:52.643Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_pages", :db-path "C:\\Users\\lituo\\logseq\\graphs\\pages\\db.sqlite"}, :line 362}
+2026-08-29T17:37:52.644Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_pages", :search-path "C:\\Users\\lituo\\logseq\\graphs\\pages\\search\\db.sqlite"}, :line 367}
+2026-08-29T17:37:52.644Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_pages", :client-ops-path "C:\\Users\\lituo\\logseq\\graphs\\pages\\client-ops-\\db.sqlite"}, :line 376}
+2026-08-29T17:37:52.673Z [info] [frontend.worker.db-worker-node] {:db-worker-node-ready {:host "127.0.0.1", :port 52630}, :line 641}
