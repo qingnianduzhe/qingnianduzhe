@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://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@github.com/qingnianduzhe/qingnianduzhe.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
