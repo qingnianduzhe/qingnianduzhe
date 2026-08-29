@@ -6,3 +6,4 @@
 2026-08-29T15:32:43.817Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_qingnianduzhe", :search-path "C:\\Users\\lituo\\logseq\\graphs\\qingnianduzhe\\search\\db.sqlite"}, :line 451}
 2026-08-29T15:32:43.818Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_qingnianduzhe", :client-ops-path "C:\\Users\\lituo\\logseq\\graphs\\qingnianduzhe\\client-ops-\\db.sqlite"}, :line 460}
 2026-08-29T15:32:44.361Z [info] [frontend.worker.db-worker-node] {:db-worker-node-ready {:host "127.0.0.1", :port 59635}, :line 617}
+2026-08-29T16:01:38.191Z [info] [frontend.worker.db-worker-node] {:db-worker-node-stopped nil, :line 614}
