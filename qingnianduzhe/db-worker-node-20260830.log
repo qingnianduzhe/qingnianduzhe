@@ -7,3 +7,12 @@
 2026-08-29T16:02:20.002Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_qingnianduzhe", :client-ops-path "C:\\Users\\lituo\\logseq\\graphs\\qingnianduzhe\\client-ops-\\db.sqlite"}, :line 460}
 2026-08-29T16:02:20.053Z [info] [frontend.worker.db-worker-node] {:db-worker-node-ready {:host "127.0.0.1", :port 60435}, :line 617}
 2026-08-29T16:02:38.196Z [info] [frontend.worker.db-worker-node] {:db-worker-node-stopped nil, :line 614}
+2026-08-29T16:09:21.267Z [info] [frontend.worker.db-worker-node] {:db-worker-node-version {:build-time "2026-08-26T14:55:22.208344212Z", :revision "f7362f0-dirty"}, :line 554}
+2026-08-29T16:09:21.270Z [info] [frontend.worker.platform.node] {:db-worker-node-platform {:root-dir "C:\\Users\\lituo\\logseq", :vector-embedding-enabled? false, :embedding-endpoint nil, :embedding-model-id nil}, :line 701}
+2026-08-29T16:09:21.275Z [info] [frontend.worker.db-core] {:db-worker/init-service {:graph "logseq_db_qingnianduzhe", :prev-graph nil, :import-type nil}, :line 936}
+2026-08-29T16:09:21.276Z [info] [frontend.worker.db-core] {:db-worker/on-become-master-start {:repo "logseq_db_qingnianduzhe", :import-type nil}, :line 900}
+2026-08-29T16:09:21.277Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_qingnianduzhe", :db-path "C:\\Users\\lituo\\logseq\\graphs\\qingnianduzhe\\db.sqlite"}, :line 446}
+2026-08-29T16:09:21.278Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_qingnianduzhe", :search-path "C:\\Users\\lituo\\logseq\\graphs\\qingnianduzhe\\search\\db.sqlite"}, :line 451}
+2026-08-29T16:09:21.278Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_qingnianduzhe", :client-ops-path "C:\\Users\\lituo\\logseq\\graphs\\qingnianduzhe\\client-ops-\\db.sqlite"}, :line 460}
+2026-08-29T16:09:21.326Z [info] [frontend.worker.db-worker-node] {:db-worker-node-ready {:host "127.0.0.1", :port 60673}, :line 617}
+2026-08-29T16:09:27.031Z [info] [frontend.worker.db-worker-node] {:db-worker-node-stopped nil, :line 614}
