@@ -16,3 +16,11 @@
 2026-08-29T16:09:21.278Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_qingnianduzhe", :client-ops-path "C:\\Users\\lituo\\logseq\\graphs\\qingnianduzhe\\client-ops-\\db.sqlite"}, :line 460}
 2026-08-29T16:09:21.326Z [info] [frontend.worker.db-worker-node] {:db-worker-node-ready {:host "127.0.0.1", :port 60673}, :line 617}
 2026-08-29T16:09:27.031Z [info] [frontend.worker.db-worker-node] {:db-worker-node-stopped nil, :line 614}
+2026-08-29T16:12:45.107Z [info] [frontend.worker.db-worker-node] {:db-worker-node-version {:build-time "2026-08-26T14:55:22.208344212Z", :revision "f7362f0-dirty"}, :line 554}
+2026-08-29T16:12:45.109Z [info] [frontend.worker.platform.node] {:db-worker-node-platform {:root-dir "C:\\Users\\lituo\\logseq", :vector-embedding-enabled? false, :embedding-endpoint nil, :embedding-model-id nil}, :line 701}
+2026-08-29T16:12:45.113Z [info] [frontend.worker.db-core] {:db-worker/init-service {:graph "logseq_db_qingnianduzhe", :prev-graph nil, :import-type nil}, :line 936}
+2026-08-29T16:12:45.114Z [info] [frontend.worker.db-core] {:db-worker/on-become-master-start {:repo "logseq_db_qingnianduzhe", :import-type nil}, :line 900}
+2026-08-29T16:12:45.115Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_qingnianduzhe", :db-path "C:\\Users\\lituo\\logseq\\graphs\\qingnianduzhe\\db.sqlite"}, :line 446}
+2026-08-29T16:12:45.116Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_qingnianduzhe", :search-path "C:\\Users\\lituo\\logseq\\graphs\\qingnianduzhe\\search\\db.sqlite"}, :line 451}
+2026-08-29T16:12:45.116Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_qingnianduzhe", :client-ops-path "C:\\Users\\lituo\\logseq\\graphs\\qingnianduzhe\\client-ops-\\db.sqlite"}, :line 460}
+2026-08-29T16:12:45.162Z [info] [frontend.worker.db-worker-node] {:db-worker-node-ready {:host "127.0.0.1", :port 60763}, :line 617}
