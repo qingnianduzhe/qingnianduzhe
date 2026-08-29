@@ -1,0 +1,9 @@
+2026-08-29T14:28:51.365Z [info] [frontend.worker.db-worker-node] {:db-worker-node-version {:build-time "2026-08-26T14:55:22.208344212Z", :revision "f7362f0-dirty"}, :line 554}
+2026-08-29T14:28:51.367Z [info] [frontend.worker.platform.node] {:db-worker-node-platform {:root-dir "C:\\Users\\lituo\\logseq", :vector-embedding-enabled? false, :embedding-endpoint nil, :embedding-model-id nil}, :line 701}
+2026-08-29T14:28:51.373Z [info] [frontend.worker.db-core] {:db-worker/init-service {:graph "logseq_db_青年读者", :prev-graph nil, :import-type nil}, :line 936}
+2026-08-29T14:28:51.373Z [info] [frontend.worker.db-core] {:db-worker/on-become-master-start {:repo "logseq_db_青年读者", :import-type nil}, :line 900}
+2026-08-29T14:28:51.375Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_青年读者", :db-path "C:\\Users\\lituo\\logseq\\graphs\\~E9~9D~92~E5~B9~B4~E8~AF~BB~E8~80~85\\db.sqlite"}, :line 446}
+2026-08-29T14:28:51.376Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_青年读者", :search-path "C:\\Users\\lituo\\logseq\\graphs\\~E9~9D~92~E5~B9~B4~E8~AF~BB~E8~80~85\\search\\db.sqlite"}, :line 451}
+2026-08-29T14:28:51.377Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_青年读者", :client-ops-path "C:\\Users\\lituo\\logseq\\graphs\\~E9~9D~92~E5~B9~B4~E8~AF~BB~E8~80~85\\client-ops-\\db.sqlite"}, :line 460}
+2026-08-29T14:28:51.888Z [info] [frontend.worker.db-worker-node] {:db-worker-node-ready {:host "127.0.0.1", :port 57943}, :line 617}
+2026-08-29T15:32:43.305Z [info] [frontend.worker.db-worker-node] {:db-worker-node-stopped nil, :line 614}
