@@ -3,6 +3,7 @@
  :publishing/all-pages-public? true
 
  ;; 开启静态页面发布时的路径适配
- :publish/url "https://qingnianduzhe.github.io/qingnianduzhe/"
- :publish/path-prefix "qingnianduzhe"
+  :publish/url "https://qingnianduzhe.github.io/qingnianduzhe/"
+  :publish/path-prefix "qingnianduzhe"
+  :publishing/all-pages-public? true
 }
