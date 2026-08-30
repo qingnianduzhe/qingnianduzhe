@@ -1,30 +1,26 @@
-name: Publish Logseq Graph
+name: Publish Logseq graph
 
-on:
-  push:
-    branches: [ main ]
+on: [push]
 
 permissions:
   contents: write
 
 jobs:
-  build-and-deploy:
+  test:
     runs-on: ubuntu-latest
+    name: Publish Logseq graph
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Publish Logseq graph
-        uses: logseq/publish-spa@v0.3.0
+      - uses: actions/checkout@v4
+      
+      - uses: logseq/publish-spa@v0.3.0
         with:
-          graph-directory: '.'
-          output-directory: '.publish'
+          output-directory: 'www' # 明确指定输出到 www 目录
 
-      - name: Add .nojekyll file
-        run: touch .publish/.nojekyll
+      - name: Add a nojekyll file
+        run: touch $GITHUB_WORKSPACE/www/.nojekyll
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: .publish
+          folder: www # 对应上面打包输出的目录
           branch: gh-pages
