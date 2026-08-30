@@ -19,7 +19,6 @@ jobs:
         with:
           graph-directory: '.'
           output-directory: 'www'
-          version: '0.10.6'
 
       - name: Add .nojekyll file
         run: touch $GITHUB_WORKSPACE/www/.nojekyll

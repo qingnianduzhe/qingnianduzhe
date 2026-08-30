@@ -35,3 +35,26 @@
 2026-08-29T17:37:52.644Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_pages", :search-path "C:\\Users\\lituo\\logseq\\graphs\\pages\\search\\db.sqlite"}, :line 367}
 2026-08-29T17:37:52.644Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_pages", :client-ops-path "C:\\Users\\lituo\\logseq\\graphs\\pages\\client-ops-\\db.sqlite"}, :line 376}
 2026-08-29T17:37:52.673Z [info] [frontend.worker.db-worker-node] {:db-worker-node-ready {:host "127.0.0.1", :port 52630}, :line 641}
+2026-08-30T00:09:33.648Z [info] [frontend.worker.db-worker-node] {:db-worker-node-version {:build-time "2026-07-13T06:22:00.122282361Z", :revision "b09316a"}, :line 578}
+2026-08-30T00:09:33.658Z [info] [frontend.worker.platform.node] {:db-worker-node-platform {:root-dir "C:\\Users\\lituo\\logseq", :vector-embedding-enabled? false, :embedding-endpoint nil, :embedding-model-id nil}, :line 701}
+2026-08-30T00:09:33.663Z [info] [frontend.worker.db-core] {:db-worker/init-service {:graph "logseq_db_pages", :prev-graph nil, :import-type nil}, :line 1731}
+2026-08-30T00:09:33.664Z [info] [frontend.worker.db-core] {:db-worker/on-become-master-start {:repo "logseq_db_pages", :import-type nil}, :line 1696}
+2026-08-30T00:09:33.664Z [info] [frontend.worker.db-worker-node] {:db-worker-node-version {:build-time "2026-07-13T06:22:00.122282361Z", :revision "b09316a"}, :line 578}
+2026-08-30T00:09:33.666Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_pages", :db-path "C:\\Users\\lituo\\logseq\\graphs\\pages\\db.sqlite"}, :line 362}
+2026-08-30T00:09:33.668Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_pages", :search-path "C:\\Users\\lituo\\logseq\\graphs\\pages\\search\\db.sqlite"}, :line 367}
+2026-08-30T00:09:33.669Z [info] [frontend.worker.db-core] {:db-worker/get-dbs-open {:repo "logseq_db_pages", :client-ops-path "C:\\Users\\lituo\\logseq\\graphs\\pages\\client-ops-\\db.sqlite"}, :line 376}
+2026-08-30T00:09:33.678Z [info] [frontend.worker.platform.node] {:db-worker-node-platform {:root-dir "C:\\Users\\lituo\\logseq", :vector-embedding-enabled? false, :embedding-endpoint nil, :embedding-model-id nil}, :line 701}
+2026-08-30T00:09:33.685Z [severe] [frontend.worker.db-worker-node-lock] {:db-worker-node-lock-create-failed #error {:message "graph already locked", :data {:code :repo-locked, :lock {:repo "logseq_db_pages", :pid 19828, :lock-id "6b60824d-e682-45d9-9b77-6c65034e1fbf", :owner-source :electron}}}, :line 116}
+2026-08-30T00:09:33.687Z [stdio] [console.error] db-worker-node failed to start: graph already locked
+2026-08-30T00:09:33.688Z [stdio] [console.error] Error: graph already locked
+2026-08-30T00:09:33.688Z [stdio] [console.error]     at new hk (D:\logseq\resources\app.asar\js\db-worker-node.js:2:619197)
+2026-08-30T00:09:33.688Z [stdio] [console.error]     at jk (D:\logseq\resources\app.asar\js\db-worker-node.js:2:619496)
+2026-08-30T00:09:33.688Z [stdio] [console.error]     at ik (D:\logseq\resources\app.asar\js\db-worker-node.js:2:619457)
+2026-08-30T00:09:33.689Z [stdio] [console.error]     at D:\logseq\resources\app.asar\js\db-worker-node.js:2:2245041
+2026-08-30T00:09:33.689Z [stdio] [console.error]     at h4 (D:\logseq\resources\app.asar\js\db-worker-node.js:2:1661703)
+2026-08-30T00:09:33.689Z [stdio] [console.error]     at awb (D:\logseq\resources\app.asar\js\db-worker-node.js:2:2244902)
+2026-08-30T00:09:33.689Z [stdio] [console.error]     at D:\logseq\resources\app.asar\js\db-worker-node.js:2:2246749
+2026-08-30T00:09:33.689Z [stdio] [console.error]     at Object.resolve (D:\logseq\resources\app.asar\js\db-worker-node.js:2:1662688)
+2026-08-30T00:09:33.689Z [stdio] [console.error]     at I8a (D:\logseq\resources\app.asar\js\db-worker-node.js:2:1658255)
+2026-08-30T00:09:33.690Z [stdio] [console.error]     at D:\logseq\resources\app.asar\js\db-worker-node.js:2:1659804
+2026-08-30T00:09:33.718Z [info] [frontend.worker.db-worker-node] {:db-worker-node-ready {:host "127.0.0.1", :port 53690}, :line 641}
