@@ -18,13 +18,13 @@ jobs:
         uses: logseq/publish-spa@v0.3.0
         with:
           graph-directory: '.'
-          output-directory: 'www'
+          output-directory: '.publish'
 
       - name: Add .nojekyll file
-        run: touch $GITHUB_WORKSPACE/www/.nojekyll
+        run: touch .publish/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: www
+          folder: .publish
           branch: gh-pages
