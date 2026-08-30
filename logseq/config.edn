@@ -1,5 +1,8 @@
 {:disabled-plugins []
- ;; 开启静态页面发布时的路径适配（必须与你的仓库名 /qingnianduzhe/ 完全一致）
+ ;; 允许发布所有页面（否则默认会过滤掉未显式公开的页面）
+ :publishing/all-pages-public? true
+
+ ;; 开启静态页面发布时的路径适配
  :publish/url "https://qingnianduzhe.github.io/qingnianduzhe/"
  :publish/path-prefix "qingnianduzhe"
 }
